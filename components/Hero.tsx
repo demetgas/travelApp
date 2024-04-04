@@ -22,6 +22,21 @@ const Hero = () => {
           exercitationem velit earum, nisi amet aut, expedita laborum inventore.
           Nobis excepturi animi mollitia alias.
         </p>
+        <div className="my-11 flex flex-wrap gap-5">
+          <div className="flex items-center gap-2">
+            {Array(5)
+              .fill(1)
+              .map((_, index) => (
+                <Image
+                  src="/star.svg"
+                  key={index}
+                  alt="star"
+                  width={24}
+                  height={24}
+                />
+              ))}
+          </div>
+        </div>
       </div>
     </section>
   );
