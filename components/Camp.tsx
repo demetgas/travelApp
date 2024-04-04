@@ -33,6 +33,7 @@ const CampSite = ({
               <Image src={url} key={url} alt="person" width={52} height={52} />
             ))}
           </span>
+          <p className="bold-16t md:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
     </div>
